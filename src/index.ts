@@ -14,8 +14,7 @@ const jsonBodyMidlleware = bodyParser.json()
 const port = process.env.PORT || 5000
 
 app.get('/', (req: Request, res: Response) => {
-  let helloMessage = 'Hello mister Rustik!'
-  res.send(helloMessage)
+  res.send("Hello it-incubator EU")
 })
 
 app.listen(port, () => {
